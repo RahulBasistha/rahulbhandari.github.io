@@ -1,0 +1,126 @@
+body{
+	margin: 0;
+	background-color: #f1f1f1;
+}
+header{
+	background-color: green;
+	padding: 5px;
+	text-align: center;
+	color: white;
+	font-family: Comic Sans Ms;
+}
+nav{
+	overflow: hidden;
+	background-color: #333;
+}
+nav a{
+	float: left;
+	color: #fff;
+	padding: 14px 16px ;
+	text-decoration: none;
+
+}
+nav a:hover{
+	background-color: black ;
+	color: white ;
+}
+.column{
+	float: left;
+	padding: 10px;
+}
+.column.side{
+	width: 100%;
+
+}
+.column.middle{
+	width: 100%;
+}
+h2{
+	font-family: Comic Sans Ms;
+}
+p{
+	font-family: Comic Sans Ms;
+}
+a{
+	font-family: Comic Sans Ms;
+	
+}
+label{
+	font-family: Comic Sans Ms;
+	padding: 5px;
+}
+input{
+	font-family: Comic Sans Ms;
+	padding: 5px;
+}
+select{
+	font-family: Comic Sans Ms;
+	padding: 5px;
+}
+div{
+	font-family: Comic Sans Ms;
+}
+footer{
+	clear: both;
+	background-color: green;
+	padding: 5px;
+	text-align: center;
+	color: white;
+	font-family: Comic Sans Ms
+
+}
+div.gallery{
+	margin: 3px;
+	border: 3px solid black;
+	float: left;
+	width: 200px;
+}
+div.gallery:hover{
+	border: 3px solid red;
+}
+div.gallery img{
+	width: 100%;
+	height: justify;
+}
+div.desc{
+	padding: 5px;
+	text-align: center;
+}
+input[type=text], select, textarea{
+
+	width: 100%;
+	padding: 10px ;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type=submit]{
+	background-color: green;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	margin: 2px;
+}
+p{
+	text-align: justify-all;
+}
+
+.media{
+	position: absolute;
+	transform: translate(-53%, -50%);
+}
+*{ margin: 0;padding: 0; }
+		.centerdiv{
+			display: flex;
+			justify-content: center;
+		}
+a i{
+	transition: all 0.3s linear;
+	padding: 20px;
+
+}
+a:hover i{
+	transform: scale(1.4);
+
+}
